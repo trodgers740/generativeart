@@ -16,7 +16,7 @@
 #' @import ggplot2
 #' @importFrom magrittr %>%
 
-generate_plot <- function(df, file_name, polar, filetype, color = "black", background_color = "white") {
+generate_plot <- function(df, file_name, polar, filetype, color = "black", background_color = "transparent") {
   print("generate plot")
   if (polar == TRUE) {
     plot <- df %>%
